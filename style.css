@@ -10,20 +10,17 @@ body {
 .banner {
   width: 100%;
   height: auto;
-  max-height: 400px;
+  max-height: 600px;
   object-fit: cover;
   border-bottom: 4px solid #afa893;
 }
 
 .container {
-  width: 90%;
   max-width: 500px;
-  margin: 20px auto;
+  margin: 10px auto;
   background: white;
-  /*padding: 40px;
-  border-radius: 16px;*/
-  padding: 2rem;
-  border-radius: 1rem;
+  padding: 40px;
+  border-radius: 16px;
   box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
   text-align: center;
 }
@@ -73,7 +70,7 @@ button:hover {
 
 @media (max-width: 600px) {
   .container {
-    /*margin: 30px 20px;*/
+    margin: 30px 20px;
     padding: 2.5rem;
   }
 
