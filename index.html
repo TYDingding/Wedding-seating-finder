@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Wedding Seating Lookup</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <!-- CSS File -->
+    <link rel="stylesheet" href="style.css" />
+
+    <!-- Google Fonts -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Playfair+Display&family=Open+Sans&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- PapaParse CSV Loader -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/PapaParse/5.4.1/papaparse.min.js"></script>
+
+    <!-- Your custom script -->
+    <script defer src="script.js"></script>
+  </head>
+  <body>
+    <!-- Banner Image -->
+    <img src="seating chart banner.png" alt="Wedding Banner" class="banner" />
+
+    <!-- Main Card -->
+    <div class="container">
+      <h1>Find Your Seat</h1>
+      <p class="sub">Enter your name to look up your table number</p>
+      <input type="text" id="nameInput" placeholder="e.g. Kujo Jotaro" />
+      <br />
+      <button onclick="findTable()">Search</button>
+      <p id="result"></p>
+    </div>
+  </body>
+</html>
