@@ -4,6 +4,10 @@ This is a simple web app that allows wedding guests to input their names then fi
 
 I will use it on my wedding.
 
+## Preview
+
+<img src="preview.gif" width="35%"/>
+
 ## Featrures
 
 - Guests may enter part of their names and it will output all matching names->tables
@@ -18,4 +22,4 @@ I will use it on my wedding.
 5. Go to Settings > Pages
 6. Select branch: main, folder: /root
 7. Your site will be live at: https://yourusername.github.io/Wedding-seating-finder/
-8. For best practice, you may consider generate a QRcode and put it on the entrance of the venue so guests may scan and open the website on their phone
+8. For best practice, you may consider generating a QR code and put it on the entrance of the venue so guests can scan and open the website on their phone
